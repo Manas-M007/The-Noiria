@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOIRIA | Luxury Artisan Chocolates</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-logo">
+            <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M60 0C26.8629 0 0 26.8629 0 60C0 93.1371 26.8629 120 60 120C93.1371 120 120 93.1371 120 60C120 26.8629 93.1371 0 60 0ZM60 110C32.3869 110 10 87.6131 10 60C10 32.3869 32.3869 10 60 10C87.6131 10 110 32.3869 110 60C110 87.6131 87.6131 110 60 110Z" fill="#D4AF37"/>
+                <path d="M60 20C37.9086 20 20 37.9086 20 60C20 82.0914 37.9086 100 60 100C82.0914 100 100 82.0914 100 60C100 37.9086 82.0914 20 60 20ZM60 90C43.4315 90 30 76.5685 30 60C30 43.4315 43.4315 30 60 30C76.5685 30 90 43.4315 90 60C90 76.5685 76.5685 90 60 90Z" fill="#D4AF37"/>
+                <path d="M60 40C48.9543 40 40 48.9543 40 60C40 71.0457 48.9543 80 60 80C71.0457 80 80 71.0457 80 60C80 48.9543 71.0457 40 60 40ZM60 70C54.4772 70 50 65.5228 50 60C50 54.4772 54.4772 50 60 50C65.5228 50 70 54.4772 70 60C70 65.5228 65.5228 70 60 70Z" fill="#D4AF37"/>
+            </svg>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="logo">NOIRIA</a>
+            <div class="nav-links">
+                <a href="#products" class="nav-link">Collections</a>
+                <a href="#story" class="nav-link">Our Story</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <div class="nav-actions">
+                    <button class="nav-cart"><i class="fas fa-shopping-bag"></i></button>
+                    <button class="nav-menu"><i class="fas fa-bars"></i></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-video">
+            <video autoplay muted loop playsinline>
+                <source src="images/hero-video.mp4" type="video/mp4">
+                <img src="images/hero-fallback.jpg" alt="NOIRIA Chocolate Making Process">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Where Darkness Meets Decadence</h1>
+            <p class="hero-subtitle">Beyond Chocolate - A Ritual of Indulgence.</p>
+            <a href="#products" class="hero-cta">Explore Collections</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="section-header">
+            <h2 class="section-title">Our Signature Collections</h2>
+            <p class="section-subtitle">Each piece a masterpiece of flavor and craftsmanship</p>
+        </div>
+        
+        <div class="products-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="images/product1.jpg" alt="Midnight Truffle Collection" class="product-image">
+                    <div class="product-overlay"></div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Midnight Truffle Collection</h3>
+                    <p class="product-price">₹2,850</p>
+                    <p class="product-description">Velvety dark chocolate truffles adorned with 24-karat gold leaf, filled with rare single-origin ganache.</p>
+                    <button class="product-button discover-btn">Discover More</button>
+                    <button class="product-button add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-expanded">
+                    <div class="expanded-content">
+                        <button class="close-expanded"><i class="fas fa-times"></i></button>
+                        <h4>Midnight Truffle Collection</h4>
+                        <div class="expanded-details">
+                            <div class="detail-column">
+                                <h5>Ingredients</h5>
+                                <p>70% Venezuelan dark chocolate, organic heavy cream, Madagascar vanilla, edible 24-karat gold leaf, sea salt.</p>
+                                <h5>Pairing Suggestions</h5>
+                                <p>Single malt whisky, vintage port, or black coffee.</p>
+                            </div>
+                            <div class="detail-column">
+                                <h5>Tasting Notes</h5>
+                                <p>Initial notes of roasted coffee and black cherry give way to a velvety smooth ganache with a hint of sea salt that enhances the chocolate's natural complexity.</p>
+                                <h5>Contains</h5>
+                                <p>12 handcrafted truffles in premium gift box.</p>
+                            </div>
+                        </div>
+                        <button class="expanded-add-to-cart">Add to Cart - ₹2,850</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="images/product2.jpg" alt="Velvet Cocoa Bars" class="product-image">
+                    <div class="product-overlay"></div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Velvet Cocoa Bars</h3>
+                    <p class="product-price">₹3,200</p>
+                    <p class="product-description">70% single-origin cocoa from Ecuador, tempered to perfection and presented in sleek, minimalist packaging.</p>
+                    <button class="product-button discover-btn">Discover More</button>
+                    <button class="product-button add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-expanded">
+                    <div class="expanded-content">
+                        <button class="close-expanded"><i class="fas fa-times"></i></button>
+                        <h4>Velvet Cocoa Bars</h4>
+                        <div class="expanded-details">
+                            <div class="detail-column">
+                                <h5>Ingredients</h5>
+                                <p>Single-origin Ecuadorian cocoa beans, organic cane sugar, cocoa butter.</p>
+                                <h5>Pairing Suggestions</h5>
+                                <p>Bold red wines, artisanal cheeses, or as a standalone experience.</p>
+                            </div>
+                            <div class="detail-column">
+                                <h5>Tasting Notes</h5>
+                                <p>Rich and intense with notes of red berries and nuts, followed by a long, smooth finish with hints of spice and a touch of natural sweetness.</p>
+                                <h5>Contains</h5>
+                                <p>Three 80g bars in matte black packaging with gold foil stamping.</p>
+                            </div>
+                        </div>
+                        <button class="expanded-add-to-cart">Add to Cart - ₹3,200</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="images/product3.jpg" alt="Ruby Infusion" class="product-image">
+                    <div class="product-overlay"></div>
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Ruby Infusion</h3>
+                    <p class="product-price">₹3,650</p>
+                    <p class="product-description">Rare ruby chocolate blended with delicate edible flowers for a naturally pink, berry-like experience.</p>
+                    <button class="product-button discover-btn">Discover More</button>
+                    <button class="product-button add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-expanded">
+                    <div class="expanded-content">
+                        <button class="close-expanded"><i class="fas fa-times"></i></button>
+                        <h4>Ruby Infusion</h4>
+                        <div class="expanded-details">
+                            <div class="detail-column">
+                                <h5>Ingredients</h5>
+                                <p>Ruby cocoa beans, organic cane sugar, cocoa butter, edible rose and violet petals, natural fruit powders.</p>
+                                <h5>Pairing Suggestions</h5>
+                                <p>Sparkling rosé, floral teas, or fresh berries.</p>
+                            </div>
+                            <div class="detail-column">
+                                <h5>Tasting Notes</h5>
+                                <p>Surprisingly fresh berry flavors with subtle floral notes, neither bitter nor overly sweet, with a uniquely smooth melt.</p>
+                                <h5>Contains</h5>
+                                <p>9 ruby chocolate bonbons with edible flower garnish in keepsake rose gold box.</p>
+                            </div>
+                        </div>
+                        <button class="expanded-add-to-cart">Add to Cart - ₹3,650</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Story Section -->
+    <section id="story" class="story-section">
+        <div class="story-container">
+            <div class="story-image">
+                <div class="image-overlay"></div>
+            </div>
+            <div class="story-content">
+                <h2 class="section-title">The NOIRIA Story</h2>
+                <p class="story-text">Founded in 2025 by some Unkown students from IIM Bangalore , NOIRIA represents the pinnacle of chocolate craftsmanship. Each creation is the result of hundreds of hours of research, testing, and refinement.</p>
+                <p class="story-text">We source only the rarest cocoa beans from remote plantations, working directly with farmers who share our commitment to ethical and sustainable practices. Our chocolates contain no artificial additives or preservatives - just pure, unadulterated flavor.</p>
+                <p class="story-text">Every NOIRIA piece is handcrafted in our atelier in Paris, using techniques perfected over generations. We combine traditional methods with innovative approaches to create chocolates that are both timeless and contemporary.</p>
+                <a href="#" class="story-link">Discover Our Process <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="experience-header">
+            <h2 class="section-title">The NOIRIA Experience</h2>
+            <p class="section-subtitle">Beyond chocolate - a journey for the senses</p>
+        </div>
+        <div class="experience-grid">
+            <div class="experience-card">
+                <div class="experience-icon">
+                    <i class="fas fa-gem"></i>
+                </div>
+                <h3 class="experience-title">Exclusive Tastings</h3>
+                <p class="experience-description">Private chocolate tastings led by our master chocolatiers, available at our flagship boutiques or in the comfort of your home.</p>
+            </div>
+            <div class="experience-card">
+                <div class="experience-icon">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <h3 class="experience-title">Seasonal Collections</h3>
+                <p class="experience-description">Limited edition creations that celebrate the seasons, available for short periods only to our most discerning clients.</p>
+            </div>
+            <div class="experience-card">
+                <div class="experience-icon">
+                    <i class="fas fa-gift"></i>
+                </div>
+                <h3 class="experience-title">Personalized Gifting</h3>
+                <p class="experience-description">Bespoke gift solutions with hand-written notes, custom packaging, and delivery scheduling for those special occasions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="contact" class="newsletter-section">
+        <div class="newsletter-container">
+            <div class="newsletter-content">
+                <h2 class="section-title">Join Our World</h2>
+                <p class="newsletter-text">Subscribe to receive exclusive offers, early access to new collections, and invitations to private events.</p>
+                <form class="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </div>
+                    <div class="form-agreement">
+                        <input type="checkbox" id="privacy-agree" required>
+                        <label for="privacy-agree">I agree to NOIRIA's Privacy Policy</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="#">NOIRIA</a>
+                <p class="footer-slogan">Luxury Redefined</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-column">
+                    <h4 class="link-title">Collections</h4>
+                    <a href="#" class="footer-link">Signature Series</a>
+                    <a href="#" class="footer-link">Seasonal Offerings</a>
+                    <a href="#" class="footer-link">Corporate Gifting</a>
+                </div>
+                <div class="link-column">
+                    <h4 class="link-title">Information</h4>
+                    <a href="#" class="footer-link">Our Story</a>
+                    <a href="#" class="footer-link">Boutique Locations</a>
+                    <a href="#" class="footer-link">Shipping & Returns</a>
+                </div>
+                <div class="link-column">
+                    <h4 class="link-title">Legal</h4>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Cookie Settings</a>
+                </div>
+                <div class="link-column">
+                    <h4 class="link-title">Connect</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <a href="mailto:contact@noiria.com" class="footer-link">contact@noiria.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="copyright">© 2023 NOIRIA. All rights reserved. developed by Manas Maliyekkal</p>
+            <div class="payment-methods">
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-amex"></i>
+                <i class="fab fa-cc-paypal"></i>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Selection</h3>
+            <button class="close-cart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items will be added here dynamically -->
+        </div>
+        <div class="cart-summary">
+            <div class="summary-row">
+                <span>Subtotal</span>
+                <span class="cart-subtotal">₹0</span>
+            </div>
+            <div class="summary-row">
+                <span>Shipping</span>
+                <span class="cart-shipping">Calculated at checkout</span>
+            </div>
+            <div class="summary-row total">
+                <span>Total</span>
+                <span class="cart-total">₹0</span>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+    <div class="cart-overlay"></div>
+
+    <!-- Checkout Modal -->
+    <div class="checkout-modal">
+        <div class="checkout-container">
+            <button class="close-checkout"><i class="fas fa-times"></i></button>
+            <h2 class="checkout-title">Complete Your Purchase</h2>
+            
+            <div class="checkout-steps">
+                <div class="step active" data-step="1">
+                    <span>1</span>
+                    <p>Shipping</p>
+                </div>
+                <div class="step" data-step="2">
+                    <span>2</span>
+                    <p>Payment</p>
+                </div>
+                <div class="step" data-step="3">
+                    <span>3</span>
+                    <p>Confirmation</p>
+                </div>
+            </div>
+            
+            <form class="checkout-form">
+                <!-- Step 1: Shipping -->
+                <div class="checkout-step step-1 active">
+                    <h3>Shipping Information</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address-2">Apartment, suite, etc. (optional)</label>
+                        <input type="text" id="address-2">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <input type="text" id="city" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="state">State</label>
+                            <select id="state" required>
+                                <option value="">Select</option>
+                                <option value="MH">Maharashtra</option>
+                                <option value="DL">Delhi</option>
+                                <option value="KA">Karnataka</option>
+                                <option value="TN">Tamil Nadu</option>
+                                <option value="UP">Uttar Pradesh</option>
+                                <option value="GJ">Gujarat</option>
+                                <option value="WB">West Bengal</option>
+                                <option value="RJ">Rajasthan</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="zip">ZIP Code</label>
+                            <input type="text" id="zip" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="shipping-method">Shipping Method</label>
+                        <select id="shipping-method" required>
+                            <option value="">Select</option>
+                            <option value="standard">Standard Delivery (3-5 business days) - ₹150</option>
+                            <option value="express">Express Delivery (1-2 business days) - ₹350</option>
+                            <option value="priority">Priority Overnight - ₹750</option>
+                        </select>
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="next-step">Continue to Payment</button>
+                    </div>
+                </div>
+                
+                <!-- Step 2: Payment -->
+                <div class="checkout-step step-2">
+                    <h3>Payment Details</h3>
+                    <div class="payment-methods">
+                        <div class="payment-method active" data-method="card">
+                            <i class="far fa-credit-card"></i>
+                            <span>Credit/Debit Card</span>
+                        </div>
+                        <div class="payment-method" data-method="paypal">
+                            <i class="fab fa-paypal"></i>
+                            <span>PayPal</span>
+                        </div>
+                    </div>
+                    
+                    <div class="payment-form card-form">
+                        <div class="form-group">
+                            <label for="card-number">Card Number</label>
+                            <input type="text" id="card-number" placeholder="1234 5678 9012 3456" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="card-expiry">Expiry Date</label>
+                                <input type="text" id="card-expiry" placeholder="MM/YY" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="card-cvc">CVC</label>
+                                <input type="text" id="card-cvc" placeholder="123" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="card-name">Name on Card</label>
+                            <input type="text" id="card-name" required>
+                        </div>
+                    </div>
+                    
+                    <div class="payment-form paypal-form" style="display: none;">
+                        <p>You will be redirected to PayPal to complete your purchase securely.</p>
+                    </div>
+                    
+                    <div class="order-summary">
+                        <h4>Order Summary</h4>
+                        <div class="summary-item">
+                            <span>Midnight Truffle Collection</span>
+                            <span>₹2,850</span>
+                        </div>
+                        <div class="summary-item">
+                            <span>Shipping</span>
+                            <span class="shipping-cost">₹150</span>
+                        </div>
+                        <div class="summary-item total">
+                            <span>Total</span>
+                            <span class="order-total">₹3,000</span>
+                        </div>
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button type="button" class="prev-step">Back</button>
+                        <button type="submit" class="place-order">Place Order</button>
+                    </div>
+                </div>
+                
+                <!-- Step 3: Confirmation -->
+                <div class="checkout-step step-3">
+                    <div class="confirmation-content">
+                        <div class="confirmation-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h3>Order Confirmed</h3>
+                        <p class="confirmation-text">Thank you for your purchase. Your order #NO2023-456 has been confirmed.</p>
+                        <p class="confirmation-text">A confirmation email has been sent to your registered email address with all the details.</p>
+                        <div class="order-details">
+                            <div class="detail-row">
+                                <span>Estimated Delivery</span>
+                                <span class="delivery-date">Thursday, November 30, 2023</span>
+                            </div>
+                            <div class="detail-row">
+                                <span>Shipping to</span>
+                                <span class="shipping-address">123 Luxury Lane, Mumbai, MH 400001</span>
+                            </div>
+                        </div>
+                        <button type="button" class="continue-shopping">Continue Shopping</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="checkout-overlay"></div>
+
+    <script src="js/animations.js"></script>
+    <script src="js/product-interaction.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
